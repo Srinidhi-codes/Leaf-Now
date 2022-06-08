@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link  rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Itim&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.1.1/css/fontawesome.min.css">
+<script src="https://kit.fontawesome.com/671e81a44b.js" crossorigin="anonymous"></script>
+
+</head>
+<body>
+    <section class="sub-header">
+        <nav>
+            <a href="index.html">
+            <img src="edited\logo11.png"></a>
+            <div><div class="nav-links" id="navLinks">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="course.html">Sell/Buy</a></li>
+                    <li><a href="blog.html">Transations</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+        <h1>Buy/Sell/Donation</h1>
+
+    </section>
+
+<!------ blog page content ------>
+
+<section class="blog-content">
+
+    <div class="row">
+        <div class="blog-left">
+            <div class="blog-left img">
+            <img src="edited/transaction.png" width="250" height="150">
+            </div>
+            <h2>Transation</h2>
+
+            <div class="comment-box">
+
+                                <h3>Details</h3>
+
+                                <form class="comment-form">
+                                    <input type="text" placeholder="Enter Name"><br>
+                                    <input type="email" placeholder="Enter Email"><br>
+                                    BUY :   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <input type="checkbox"> <br>
+                                    SELL :  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <input type="checkbox" placeholder="Sell"><br>
+                                    DONATE : <input type="checkbox" placeholder="Donate"><br>
+                                    <textarea rows="5" placeholder="Your Comment">
+                                    </textarea><br>
+                                    <button type="Submit" class="hero-btn red-btn">SUBMIT</button>
+                                </form>
+
+                            </div>
+        </div>
+        <div class="blog-right">
+            <h3>Categories</h3>
+            <div>
+                <span>Buy</span>
+                <span>21</span>
+            </div>
+        <div>
+            <span>Sell</span>
+            <span>28</span>
+        </div>
+        <div>
+            <span>Donation</span>
+            <span>15</span>
+        </div>
+    </div>
+</section>
+
+
+
+<!------- Footer ------->
+
+<section class="footer">
+    <h4>About Us</h4>
+    <p>Leaf Now website team basically urge to provide smooth and easy interface <br>
+        This is a one step platform for all who are passionated towards protecting our nature.</p>
+        <div class="icons">
+            <a href="https://www.facebook.com/svcebangalore/"  i class="fa fa-facebook"></i>&nbsp;&nbsp;&nbsp;
+            <a href="https://www.linkedin.com/school/sri-venkateshwara-college-of-engineering-bangalore/" i class="fa-brands fa-linkedin"></i>&nbsp;&nbsp;&nbsp;
+            <a href="https://www.instagram.com/svce_bengaluru/?hl=en"  i class="fa fa-instagram"></i>&nbsp;&nbsp;&nbsp;
+            <a href="https://twitter.com/SvceBengaluru?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor"  i class="fa fa-twitter"></i>&nbsp;&nbsp;&nbsp;
+        </div>
+        <p> Made By <i class="fa fa-heart-o"></i> Creators Group</p>
+</section>
+
+
+
+
+
+<!------javaScript for toggle menu------>
+<script>
+
+    var naviLinks = document.getElementById("navLinks");
+    function showMenu(){
+        navLinks.style.right = "0px";
+    }
+    function hideMenu(){
+        navLinks.style.right = "-200px";
+    }
+
+</script>
+
+</body>
+</html>

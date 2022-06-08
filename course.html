@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link  rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Itim&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.1.1/css/fontawesome.min.css">
+<script src="https://kit.fontawesome.com/671e81a44b.js" crossorigin="anonymous"></script>
+
+</head>
+<body>
+    <section class="sub-header">
+        <nav>
+            <a href="index.html">
+            <img src="edited\logo11.png"></a>
+            <div><div class="nav-links" id="navLinks">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="course.html">Sell/Buy</a></li>
+                    <li><a href="blog.html">Transations</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+        <h1>Our Facilities</h1>
+
+    </section>
+
+<!-------- Courses -------->
+
+<section class="course">
+    <h1>Sell/Buy/Donate Section</h1>
+    <p>To encourage and know importance of offers we provide.</p>
+    <div class="contact-col img"></div>
+             <img src="edited/seeds.webp" width="400" height="300"></img>
+    </div>
+    
+    <div class="row">
+        <div class="course-col">
+            <a href="blog.html"><h2>Buy</h2></a>
+            This section provides the commodity to buy high quality 
+            seeds, newly produced and hybridized seeds for better
+            cultivation.
+        
+        </div>
+        <div class="course-col">
+            <a href="blog.html"><h2>SELL</h2></a>
+             This section provides the commodity to sell high quality 
+             seeds, newly produced and hybridized seeds for better
+             cultivation.
+        </div>
+        <div class="course-col">
+            <a href="blog.html"><h2>Donating</h2></a>
+            This section basically provides oppurtunity to donate 
+            newly generated seeds and encourage in social activities
+            for betterment of society.
+        </div>
+    </div>
+
+
+</section>
+
+<!------- Footer ------->
+
+<section class="footer">
+    <h4>About Us</h4>
+    <p>Leaf Now website team basically urge to provide smooth and easy interface <br>
+        This is a one step platform for all who are passionated towards protecting our nature.</p>
+        <div class="icons">
+            <a href="https://www.facebook.com/svcebangalore/"  i class="fa fa-facebook"></i>&nbsp;&nbsp;&nbsp;
+            <a href="https://www.linkedin.com/school/sri-venkateshwara-college-of-engineering-bangalore/" i class="fa-brands fa-linkedin"></i>&nbsp;&nbsp;&nbsp;
+            <a href="https://www.instagram.com/svce_bengaluru/?hl=en"  i class="fa fa-instagram"></i>&nbsp;&nbsp;&nbsp;
+            <a href="https://twitter.com/SvceBengaluru?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor"  i class="fa fa-twitter"></i>&nbsp;&nbsp;&nbsp;
+        </div>
+        <p> Made By <i class="fa fa-heart-o"></i> Creators Group</p>
+</section>
+
+
+
+
+
+<!------javaScript for toggle menu------>
+<script>
+
+    var naviLinks = document.getElementById("navLinks");
+    function showMenu(){
+        navLinks.style.right = "0px";
+    }
+    function hideMenu(){
+        navLinks.style.right = "-200px";
+    }
+
+</script>
+
+</body>
+</html>
